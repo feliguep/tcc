@@ -1,0 +1,54 @@
+
+<html>
+<html ng-app="Tela Inicial">
+    <head>
+        <title> Tela Inicial </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+       
+        <!-- Cadastro pesquisa de viabilidade da marca--> 
+        <form>
+            <br> <label> Faça sua consulta de viabilidade da sua marca: </label> <br>
+            
+            <label for ="nome_pesquisa"> Nome: </label>
+            <input id="nome_pesquisa" name="nome_pesquisa" type="text" /> <br>
+            <br>
+           <label for ="telefone_pesquisa"> Telefone: </label>
+            <input id="telefone_pesquisa" name="telefone_pesquisa" type="number" /> <br>
+            <br>
+            <label for ="marca_pesquisa"> Marca: </label>
+            <input id="marca_pesquisa" name="marca_pesquisa" type="text" /> <br>
+            <br>
+            <label for ="atividade_pesquisa"> Atividade ou o ramo que a marca irá exercer: </label>
+            <input id="atividade_pesquisa" name="atividade_pesquisa" type="text" /> <br>
+            <br>
+            <label for ="email_pesquisa"> E-mail: </label>
+            <input id="email_pesquisa" name="email_pesquisa" type="email" /> <br>
+            <br>
+            <button> Consultar </button> 
+            </form> 
+        <br>
+        
+        <form>   
+            <label> Faça seu cadastro: </label>
+            <button> Registre-se </button>
+        </form>
+        
+        <form>   
+            <label> Faça seu login: </label>
+            
+          <button>  <a href="http://localhost:8383/tcc/acesse_sistema.html"> Acesse </a> </button>
+        </form>
+        
+        
+        <script src="js/angular.min.js" ></script>
+     <script> 
+                var app = angular.module('TELA INICIAL',[]);
+            </script>
+
+    </body>
+</html>
+ 
