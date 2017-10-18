@@ -1,52 +1,36 @@
 
 <html>
-<html ng-app="Tela Inicial">
+<html ng-app="Tela login">
     <head>
-        <title> Tela Inicial </title>
+        <title> Acesse seu sistema </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     
     <body>
        
-        <!-- Cadastro pesquisa de viabilidade da marca--> 
+        <!-- Login --> 
         <form>
-            <br> <label> Faça sua consulta de viabilidade da sua marca: </label> <br>
+            <br> <label> Acesse seu login: </label> <br>
             
-            <label for ="nome_pesquisa"> Nome: </label>
-            <input id="nome_pesquisa" name="nome_pesquisa" type="text" /> <br>
+            <label for ="email_login"> Login: </label>
+            <input id="email_login" name="email_login" type="email" /> <br>
             <br>
-           <label for ="telefone_pesquisa"> Telefone: </label>
-            <input id="telefone_pesquisa" name="telefone_pesquisa" type="number" /> <br>
+           <label for ="senha_login"> Senha: </label>
+            <input id="senha_login" name="senha_login" type="password" /> <br>
             <br>
-            <label for ="marca_pesquisa"> Marca: </label>
-            <input id="marca_pesquisa" name="marca_pesquisa" type="text" /> <br>
-            <br>
-            <label for ="atividade_pesquisa"> Atividade ou o ramo que a marca irá exercer: </label>
-            <input id="atividade_pesquisa" name="atividade_pesquisa" type="text" /> <br>
-            <br>
-            <label for ="email_pesquisa"> E-mail: </label>
-            <input id="email_pesquisa" name="email_pesquisa" type="email" /> <br>
-            <br>
-            <button> Consultar </button> 
+     
+            <button> Entrar </button> 
             </form> 
-        <br>
         
-        <form>   
-            <label> Faça seu cadastro: </label>
-            <button> Registre-se </button>
-        </form>
-        
-        <form>   
-            <label> Faça seu login: </label>
+        <form>  
             
-          <button>  <a href="http://localhost:8383/tcc/acesse_sistema.html"> Acesse </a> </button>
+          <button>  <a href="http://localhost:8383/tcc/index.html"> Tela Inicial </a> </button>
         </form>
-        
-        
-        <script src="js/angular.min.js" ></script>
+        <br>
+         <script src="js/angular.min.js" ></script>
      <script> 
-                var app = angular.module('TELA INICIAL',[]);
+                var app = angular.module('Acesse seu sistema',[]);
             </script>
 
     </body>
