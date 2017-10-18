@@ -1,23 +1,49 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-<body>
-<script type="checkbox/javascript">
-var CPF/CNPJ = window.prompt (" Escolha qual o tipo de cadastro para o pedido de registro");
-var CPF = "";
-if (checkbox == "CPF") 
-capital = "Rio de Janeiro";
-else
-capital = "Não sei";
-document.write ("estado: ",estado," capital: ", capital);
-</script>
-<script src="js/angular.min.js" ></script>
+
+
+<html ng-app="">
+    <head>
+        <title> Cadastro Marca </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+       
+        <!-- Cadastro da marca--> 
+        <form>
+            <br> <label> 2º passo - Faça seu cadastro da sua marca </label> <br>
+            <br> 
+            
+            <button>  <a href="http://localhost:8383/tcc/Cadastro_NCL_conj.html"> Escolha a sua classe referente ao segmento de atividade (NCL) </a> </button>
+        </form>
+        <br>
+        <form>
+            <label for ="nome_marca"> Nome da marca: </label>
+            <input id="nome_marca" name="nome_marca" type="text" /> <br>
+            <br>
+          </form>
+        
+       <form> 
+            <label for ="command"> Tipo de registro da marca: </label> <br>
+            
+  <input type="radio" name="tipo" value="nominativa" checked> Nominativa(Apenas o nome da marca)<br>
+  <input type="radio" name="tipo" value="mista"> Mista (Nome da marca + Logotipo) <br>
+               </form> 
+    
+            <form action="http://www.exemple.com/upload.php" method ="post"> 
+                <p> Caso escolha o tipo Mista enviar o logotipo:</p>
+                <input type="file" name="Logotipo"/> <br>
+                <input type="submit" value="Upload"/> <br>
+                </form>
+        <form>    
+          <button>  <a href="http://localhost:8383/tcc/cadastro_cliente_3.html"> Próxima etapa </a> </button>
+        </form>
+        <br>
+        <script src="js/angular.min.js" ></script>
      <script> 
-                var app = angular.module('Acesse seu sistema',[]);
+                var app = angular.module('TELA INICIAL',[]);
             </script>
-</body>
+
+    </body>
 </html>
+
