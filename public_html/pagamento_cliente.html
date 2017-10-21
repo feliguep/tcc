@@ -1,0 +1,59 @@
+
+<html>
+    <head>
+        <title>Cadastro  pagamento Cliente </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div> cadastro pagamento cliente </div>
+        <form>
+            
+            <label for ="num_cartao"> Numero do cartao: </label>
+            <input id="num_cartao" name="num_cartao" type="number" /> <br>
+            <br>
+           <label for ="nome_cartao"> Nome no cartão: </label>
+            <input id="nome_cartao" name="nome_cartao" type="text" /> <br>
+            <br>
+            <label for ="rede_card"> Bandeira: </label> <br>
+            
+  <input type="radio" name="rede_card" value="master" checked>Mastercard<br>
+  <br>
+  <input type="radio" name="rede_card" value="visa" checked>Visa<br>
+  <br>
+  <input type="radio" name="rede_card" value="elo" checked>Elo<br>
+  <br>
+  
+            <label for ="cv_cartao"> CV: </label>
+            <input id="cv_cartao" name="cv_cartao" type="number" /> <br>
+            <br>
+             <label for ="bank"> Banco: </label> <br>
+            
+  <input type="radio" name="bank" value="BB" checked>Banco do Brasil<br>
+  <br>
+  <input type="radio" name="bank" value="BRA" checked>Bradesco<br>
+  <br>
+  <input type="radio" name="bank" value="ITA" checked>Itau<br>
+  <br>
+  
+   <label for ="cod_parceiro"> Codigo do parceiro que lhe indicou: </label>
+            <input id="cod_parceiro" name="cod_parceiro" type="number" /> <br>
+            <br>
+     <label for ="valor"> Valor total do pedido de registro:R$1500,00 </label>
+     <br>
+            <button>  Finalizar pedido  </button> 
+           <br>
+        <form>  
+            <br>
+          <button>  <a href="http://localhost:8383/tcc/acesse_sistema.html"> Acesse seu sistema </a> </button>
+        </form>
+        <br>
+         <script src="js/angular.min.js" ></script>
+     <script> 
+                var app = angular.module('Acesse seu sistema',[]);
+            </script>
+        
+        
+   </body>
+</html>
+

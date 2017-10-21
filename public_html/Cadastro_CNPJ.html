@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- Cadastro 1º passo cliente -->
+<html>
+    <head>
+        <title>Cadastro Cliente CNPJ </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div> cadastro cliente CNPJ </div>
+        <form>
+            
+            <label for ="cnpj_cliente"> CNPJ: </label>
+            <input id="cnpj_cliente" name="cnpj_cliente" type="number" /> <br>
+            <br>
+           <label for ="nome_fantasia_cliente"> Nome Fantasia: </label>
+            <input id="nome_fantasia_cliente" name="nome_fantasia_cliente" type="text" /> <br>
+            <br>
+            <label for ="razao_social_cliente"> Razao Social: </label>
+            <input id="razao_social_cliente" name="razao_social_cliente" type="text" /> <br>
+            <br>
+             <label for ="legal_nature"> Natureza Jurídica: </label> <br>
+            
+  <input type="radio" name="legal_nature" value="PJ" checked>Pessoa Juridica<br>
+  <br>
+  <input type="radio" name="legal_nature" value="ME" checked>Microempresa assim definida em lei (ME)<br>
+  <br>
+  <input type="radio" name="legal_nature" value="MEI" checked>Microempreendor individual (MEI)<br>
+  <br>
+  <input type="radio" name="legal_nature" value="EIRELI" checked>Empresa Individual de Responsabilidade Limitada (EIRELI)<br>
+  <br>
+  <input type="radio" name="legal_nature" value="EPP" checked>Empresa de Pequeno Porte (EPP)<br>
+  <br>
+  <input type="radio" name="legal_nature" value="LTDA" checked>Sociedade empresarial de responsabilidade limitada (Ltda) <br>
+  <br>
+     
+    </form>
+        <form action="http://www.exemple.com/upload.php" method ="post"> 
+                <p> CONTRATO SOCIAL:</p>
+                <input type="file" name="contrato_social"/> <br>
+                <input type="submit" value="Upload"/> <br>
+        </form> <br>
+            <button>  Salvar  </button> 
+           <br>
+        <form>  
+            
+          <button>  <a href="http://localhost:8383/tcc/cadastro_cliente_3.html"> Voltar para tela cadastro </a> </button>
+        </form>
+        <br>
+         <script src="js/angular.min.js" ></script>
+     <script> 
+                var app = angular.module('Acesse seu sistema',[]);
+            </script>
+        
+        
+   </body>
+</html>

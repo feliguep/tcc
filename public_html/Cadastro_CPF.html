@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- Cadastro 1º passo cliente -->
+<html>
+    <head>
+        <title>Cadastro Cliente CPF </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div> cadastro cliente CPF </div>
+        <form>
+            
+            <label for ="cpf_cliente"> CPF: </label>
+            <input id="cpf_cliente" name="cpf_cliente" type="number" /> <br>
+            <br>
+           <label for ="nome_cliente"> Nome completo: </label>
+            <input id="nome_cliente" name="nome_cliente" type="text" /> <br>
+            <br>
+            
+             <label for ="legal_nature"> Natureza Jurídica: </label> <br>
+            
+  <input type="radio" name="legal_nature" value="PF" checked>Pessoa Fisica<br>
+  <br>
+     
+            <button>  Salvar  </button> 
+            </form> <br>
+        <form>  
+            
+          <button>  <a href="http://localhost:8383/tcc/cadastro_cliente_3.html"> Voltar para tela cadastro </a> </button>
+        </form>
+        <br>
+         <script src="js/angular.min.js" ></script>
+     <script> 
+                var app = angular.module('Acesse seu sistema',[]);
+            </script>
+        
+        
+   </body>
+</html>
