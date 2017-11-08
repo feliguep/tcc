@@ -1,17 +1,14 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
+<html ng-app="Cadastro Parcaeiro">
     <head>
-        <title>TODO supply a title</title>
+        <title> Cadastro Parcaeiro </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
+    
     <body>
-        <table border="1">
+       
+        <!-- Cadastro Cadastro Parcaeiro--> 
+               <table border="1">
             <tr><td> <form>  
           <button>  <a href="http://localhost:8383/tcc/cadastro_parceiro.html"> Cadastro Parceiro </a> </button>
         </form></td> <td> <form>    
@@ -30,22 +27,28 @@ and open the template in the editor.
          <button>  <a href="http://localhost:8383/tcc/acesse_sistema.html"> SAIR </a> </button>
         </form></td></tr> 
 </table>
-        
         <form>
-            <br> <label> Dashboard: </label> <br>
+            <br> <label> Faça o cadastro do parceiro: </label> <br>
             
-            <label for ="total_recebido"> Total recibido em R$: </label>
-            <input id="total_recebido" name="total_recebido" type="number" /> <br>
+            <label for ="nome_parceiro"> Nome: </label>
+            <input id="nome_parceiro" name="nome_parceiro" type="text" /> <br>
             <br>
-           <label for ="total_marcas"> Total de marcas: </label>
-            <input id="total_marcas" name="total_marcas" type="number" /> <br>
+           <label for ="telefone_parceiro"> Telefone: </label>
+            <input id="telefone_parceiro" name="telefone_parceiro" type="number" /> <br>
             <br>
-            <label for ="total_clientes"> Total de clientes: </label>
-            <input id="total_clientes" name="total_clientes" type="number" /> <br>
+            <label for ="codigo_indica"> Código de indicação: </label>
+            <input id="codigo_indica" name="codigo_indica" type="number" /> <br>
             <br>
-            <label for ="total_parceiros"> Total de parceiros: </label>
-            <input id="total_parceiros" name="total_parceiros" type="text" /> <br>
-            
+            <label for ="senha_parceiro"> Senha: </label>
+            <input id="senha_parceiro" name="senha_parceiro" type="password" /> <br>
+            <br>
+            <label for ="email_parceiro"> E-mail: </label>
+            <input id="email_parceiro" name="email_parceiro" type="email" /> <br>
+            <br>
+            <button> Cadastrar  </button>
+           
             </form> 
-        </body>
+        <br>
+        
+          </body>
 </html>
