@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <title>TODO supply a title</title>
@@ -11,6 +5,43 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>TODO write content</div>
+        <table border="1">
+            <tr><td> <form>  
+          <button>  <a href="http://localhost:8383/tcc/cadastro_parceiro.html"> Cadastro Parceiro </a> </button>
+        </form></td> <td> <form>    
+          <button>  <a href="http://localhost:8383/tcc/cliente_resumo_admin.html"> Clientes </a> </button>
+        </form> </td> <td> <form>  
+          <button>  <a href="http://localhost:8383/tcc/marcas_resumo_admin.html"> Marcas </a> </button>
+        </form></td> <td> <form>    
+          <button>  <a href="http://localhost:8383/tcc/resumo_parceiro.html">  Lista Parceiros </a> </button>
+        </form></td> <td><form>    
+          <button>  <a href="http://localhost:8383/tcc/pesquisa_viabilidade.html"> Pesquisa de viablilidade </a> </button>
+        </form></td> <td> <form>    
+         <button>  <a href="http://localhost:8383/tcc/admin_home.html"> Dashboard </a> </button>
+            </form></td> <td><form>    
+         <button>  <a href="http://localhost:8383/tcc/pagamentos_admin.html"> Financeiro </a> </button>
+        </form></td><td><form>    
+         <button>  <a href="http://localhost:8383/tcc/acesse_sistema.html"> SAIR </a> </button>
+        </form></td></tr>
+        </table>
+        <br>
+        <table border="1">
+            <tr><td>Cliente</td> <td> CPF </td> <td> CNPJ</td><td> Responsável</td> <td>Natureza Jurídica </td> </tr> 
+</table>
+        <li> 
+            <label for ="cpf_cliente"> CPF: </label>
+            <input id="cpf_cliente" name="cpf_cliente" type="number" />
+            <label for ="cnpj_cliente"> CNPJ: </label>
+            <input id="cnpj_cliente" name="cnpj_cliente" type="number" /> 
+           <label for ="nome_cliente"> Nome completo: </label>
+            <input id="nome_cliente" name="nome_cliente" type="text" />
+            <label for ="respon_nome"> Responsavel pelo registro: </label> 
+            <input id="respon_nome" name="respon_nome" type="text" /> 
+         <label for ="legal_nature"> Natureza Jurídica: </label> 
+         <input id="legal_nature" name="legal_nature" type="text" /> 
+            <button>  <a href="http://localhost:8383/tcc/cliente_visual.html"> Visualizar </a>  </button> 
+             <button>  <a href="http://localhost:8383/tcc/cliente_edit.html"> Editar </a> </button> 
+            </form> <br>
+            </li>
     </body>
 </html>

@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <title>TODO supply a title</title>
@@ -11,6 +5,32 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>TODO write content</div>
+        <table border="1">
+            <tr><td> <form>  
+          <button>  <a href="http://localhost:8383/tcc/cliente_visual_CPF_perfil.html"> Meus dados </a> </button>
+        </form></td> <td> <form>    
+          <button>  <a href="http://localhost:8383/tcc/cliente_cpf_home.html"> Minhas Marcas </a> </button>
+        </form> </td> <td> <form>  
+          <button>  <a href="http://localhost:8383/tcc/novo_pedido_registro.html"> Novo pedido de registro de marcas </a> </button>
+        </form></td> <td> <form>    
+         <button>  <a href="http://localhost:8383/tcc/acesse_sistema.html"> SAIR </a> </button>
+        </form></td></tr>
+        </table>
+        <br>
+       
+         <table border="1">
+            <tr><td>Marca</td>  <td> Status do processo </td><td> Numero do processo </td></tr> 
+</table>
+        <li> 
+           <label for ="nome_marca"> Nome da marca: </label>
+            <input id="nome_marca" name="nome_marca" type="text" />           
+            <label for ="status_processo"> Status do processo: </label> 
+         <input id="status_processo" name="status_processo" type="text" />
+            <label for ="num_processo"> Numero do processo: </label>
+            <input id="num_processo" name="num_processo" type="number" />              
+            <button>  <a href="http://localhost:8383/tcc/cliente_visual_perfil.html"> Visualizar </a>  </button> 
+             <button>  <a href="http://localhost:8383/tcc/cliente_edit_perfil.html"> Editar </a> </button> 
+             <br>
+            </li>
     </body>
 </html>
