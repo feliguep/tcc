@@ -2,5 +2,9 @@
     "elements": {
         "li": {}
     },
-    "attributes": {}
+    "attributes": {
+        "name:\"status_processo\"": {
+            "context": "select"
+        }
+    }
 }
