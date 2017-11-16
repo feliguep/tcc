@@ -7,41 +7,28 @@
     <body>
         <table border="1">
             <tr><td> <form>  
-          <button>  <a href="http://localhost:8383/tcc/cadastro_parceiro.html"> Cadastro Parceiro </a> </button>
+          <button>  <a href="http://localhost:8383/tcc/meus_dados_cnpj.html"> Meus dados </a> </button>
         </form></td> <td> <form>    
-          <button>  <a href="http://localhost:8383/tcc/cliente_resumo_admin.html"> Clientes </a> </button>
-        </form> </td> <td> <form>  
-          <button>  <a href="http://localhost:8383/tcc/marcas_resumo_admin.html"> Marcas </a> </button>
-        </form></td> <td> <form>    
-          <button>  <a href="http://localhost:8383/tcc/resumo_parceiro.html">  Lista Parceiros </a> </button>
-        </form></td> <td><form>    
-          <button>  <a href="http://localhost:8383/tcc/pesquisa_viabilidade.html"> Pesquisa de viablilidade </a> </button>
-        </form></td> <td> <form>    
-         <button>  <a href="http://localhost:8383/tcc/admin_home.html"> Dashboard </a> </button>
-            </form></td> <td><form>    
-         <button>  <a href="http://localhost:8383/tcc/pagamentos_admin.html"> Financeiro </a> </button>
-        </form></td><td><form>    
+          <button>  <a href="http://localhost:8383/tcc/cliente_cnpj_home.html"> Minha Marca </a> </button>
+        <td>     
          <button>  <a href="http://localhost:8383/tcc/acesse_sistema.html"> SAIR </a> </button>
-        </form></td></tr>
+         </td></tr>
         </table>
         <br>
-        <table border="1">
-            <tr><td>Cliente</td> <td> CPF </td> <td> CNPJ</td><td> Responsável</td> <td>Natureza Jurídica </td> </tr> 
-</table>
+       
+         <table border="1">
+            <tr><td>Marca</td>  <td> Status do processo </td><td> Numero do processo </td></tr> 
+</table> 
         <li> 
-            <label for ="cpf_cliente"> CPF: </label>
-            <input id="cpf_cliente" name="cpf_cliente" type="number" />
-            <label for ="cnpj_cliente"> CNPJ: </label>
-            <input id="cnpj_cliente" name="cnpj_cliente" type="number" /> 
-           <label for ="nome_cliente"> Nome completo: </label>
-            <input id="nome_cliente" name="nome_cliente" type="text" />
-            <label for ="respon_nome"> Responsavel pelo registro: </label> 
-            <input id="respon_nome" name="respon_nome" type="text" /> 
-         <label for ="legal_nature"> Natureza Jurídica: </label> 
-         <input id="legal_nature" name="legal_nature" type="text" /> 
-            <button>  <a href="http://localhost:8383/tcc/cliente_visual.html"> Visualizar </a>  </button> 
-             <button>  <a href="http://localhost:8383/tcc/cliente_edit.html"> Editar </a> </button> 
-            </form> <br>
+           <label for ="nome_marca"> Nome da marca: </label>
+            <input id="nome_marca" name="nome_marca" type="text" />           
+            <label for ="status_processo"> Status do processo: </label> 
+         <input id="status_processo" name="status_processo" type="text" />
+            <label for ="num_processo"> Numero do processo: </label>
+            <input id="num_processo" name="num_processo" type="number" />              
+            <button>  <a href="http://localhost:8383/tcc/CNPJ_visual_marca.html"> Visualizar </a>  </button> 
+             <button>  <a href="http://localhost:8383/tcc/CNPJ_edit_marca.html"> Editar </a> </button> 
+             <br>
             </li>
     </body>
 </html>
